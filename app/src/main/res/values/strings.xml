@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Latihan2</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="registrasi">Registrasi</string>
+    <string name="doesn_t_have_account">doesn\'t have account?</string>
+    <string name="register">Register</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="personal">Personal</string>
+    <string name="organization">Organization</string>
+    <string name="email">Email</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="home_addess">Home Addess</string>
+    <string name="default_location">Default Location</string>
+    <string name="agree_whith_terms_and_conditions">Agree whith Terms and Conditions</string>
+
+    <string-array name="blood_type">
+        <item>Blood Type</item>
+        <item>A</item>
+        <item>B</item>
+        <item>O</item>
+        <item>AB</item>
+    </string-array>
+
+    <string-array name="reshus">
+        <item>Reshus</item>
+        <item>dll</item>
+    </string-array>
+
+    <string-array name="job">
+        <item>Job</item>
+        <item>dll</item>
+    </string-array>
+</resources>
