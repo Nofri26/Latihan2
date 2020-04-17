@@ -6,13 +6,20 @@ import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_home.*
 
 class Home : AppCompatActivity() {
-    lateinit var home_nama2 : TextView
+    lateinit var nama : TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        home_nama2 = findViewById(R.id.home_nama)
-        val name =intent.getStringArrayExtra("username")
-        home_nama2.text = "hallo "+name
+        var intent = intent
+        val nama = intent.getStringExtra("Name")
+        val goldar = intent.getStringExtra("Blood")
+
+        //tampilin ke textview
+        val DataNama = findViewById<TextView>(R.id.home_nama)
+        DataNama.text = nama
+
+        val DataDarah = findViewById<TextView>(R.id.home_blood_type)
+        DataDarah.text = "Blood Type : " + goldar
     }
 }

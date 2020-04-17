@@ -31,11 +31,11 @@
     <string name="_10_users_need_blood">10 Users need blood</string>
 
     <string-array name="blood_type">
-        <item>Blood Type</item>
-        <item>A</item>
-        <item>B</item>
-        <item>O</item>
-        <item>AB</item>
+        <item name="">Blood Type</item>
+        <item name="a">A</item>
+        <item name="b">B</item>
+        <item name="ab">AB</item>
+        <item name="o">O</item>
     </string-array>
 
     <string-array name="reshus">

@@ -1,11 +1,11 @@
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:innerRadius="0dp"
-    android:shape="ring"
-    android:thicknessRatio="1.9"
-    android:useLevel="false" >
-    <solid android:color="@android:color/transparent" />
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/dimen50" />
+            <solid android:color="@color/colorWhite"/>
+            <padding android:bottom="@dimen/dimen2"/>
 
-    <stroke
-        android:width="10dp"
-        android:color="@android:color/white" />
-</shape>
+        </shape>
+    </item>
+</selector>

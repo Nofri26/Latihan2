@@ -6,7 +6,6 @@
         <item name="colorPrimary">@color/colorDark</item>
         <item name="colorPrimaryDark">@color/colorDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:background">@color/colorWhite</item>
     </style>
     
     <style name="bg_blue" parent="Theme.AppCompat.Light.DarkActionBar">

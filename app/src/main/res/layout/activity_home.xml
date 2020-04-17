@@ -6,24 +6,51 @@
     android:layout_height="match_parent"
     tools:context=".Home">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/dimen272_5"
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_header_profile" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/home_img"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:src="@drawable/ic_header_profile"
+            android:scaleType="fitXY"
+            android:baseline="5dp"/>
+
+        <ImageView
+            android:id="@+id/home_img_menu_slide"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/ic_side_menu"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/home_img_notification"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/ic_notification"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
 
     <ImageView
         android:id="@+id/myPict"
-        android:layout_width="93dp"
-        android:layout_height="88dp"
-        android:src="@drawable/img"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        android:layout_width="@dimen/dimen100"
+        android:layout_height="@dimen/dimen100"
+        android:background="@drawable/circle"
+        android:src="@drawable/nof2"
+        app:layout_constraintBottom_toBottomOf="@+id/relativeLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
 
     <TextView
         android:id="@+id/home_nama"
@@ -207,7 +234,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="87"
+        android:text="75"
         android:textColor="@color/colorLightBlue"
         android:textSize="36sp"
         app:layout_constraintEnd_toStartOf="@+id/textView17"
@@ -220,7 +247,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="130"
+        android:text="100"
         android:textColor="@color/colorLightBlue"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -233,7 +260,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="370"
+        android:text="330"
         android:textColor="@color/colorLightBlue"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
