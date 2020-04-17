@@ -10,13 +10,14 @@
     tools:context=".Registrasi">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/register_edit_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingVertical="@dimen/dimen20"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="@string/username" />
+        android:hint="@string/username"
+        android:autofillHints="@string/username" />
 
     <EditText
         android:id="@+id/editText2"
@@ -144,7 +145,7 @@
         android:layout_height="wrap_content"
         android:paddingVertical="@dimen/dimen15"
         android:hint="@string/default_location"
-        android:drawableRight="@drawable/ic_blood_needed_location"/>
+        android:drawableRight="@mipmap/ic_blood_needed_location"/>
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -156,7 +157,7 @@
 
     <Button
         android:background="@drawable/btn_grey"
-        android:id="@+id/button"
+        android:id="@+id/register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/colorLightBlue"

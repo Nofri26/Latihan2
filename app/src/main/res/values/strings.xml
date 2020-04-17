@@ -16,6 +16,19 @@
     <string name="home_addess">Home Addess</string>
     <string name="default_location">Default Location</string>
     <string name="agree_whith_terms_and_conditions">Agree whith Terms and Conditions</string>
+    <string name="almost_there">Almost There</string>
+    <string name="thank_you_for_registering">Thank you for registering with us. One more\nstep, you need to check your email\nto active your account</string>
+    <string name="verivy">verivy</string>
+    <string name="verify_your_account">Verify your Account</string>
+    <string name="enter_verifyvation_code_here">enter verifyvation code here</string>
+    <string name="send">send</string>
+    <string name="doesn_t_get_the_code_resend">doesn\'t get the code? Resend</string>
+    <string name="search_donor_near_you">Search donor near you</string>
+    <string name="search_donor">search donor</string>
+    <string name="massage">massage</string>
+    <string name="_7_new_messages">7 New Messages</string>
+    <string name="blood_needed">blood needed</string>
+    <string name="_10_users_need_blood">10 Users need blood</string>
 
     <string-array name="blood_type">
         <item>Blood Type</item>

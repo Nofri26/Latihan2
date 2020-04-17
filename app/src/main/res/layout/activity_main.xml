@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:theme="@style/bg_blue"
-    android:background="@color/colorLightBlue"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -13,15 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/dimen20"
-        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen100"
         android:orientation="vertical">
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dimen120"
-            app:srcCompat="@drawable/ic_welcome_logo" />
+            app:srcCompat="@mipmap/ic_welcome_logo" />
 
         <EditText
             android:id="@+id/edit_username"
@@ -30,7 +28,6 @@
             android:paddingBottom="@dimen/dimen20"
             android:layout_marginTop="@dimen/dimen30"
             android:inputType="textPersonName"
-            android:textColorHint="@color/colorWhite"
             android:hint="@string/username" />
 
         <EditText
@@ -40,7 +37,6 @@
             android:paddingBottom="@dimen/dimen20"
             android:layout_marginTop="@dimen/dimen15"
             android:inputType="textPassword"
-            android:textColorHint="@color/colorWhite"
             android:hint="@string/password" />
 
         <Button
@@ -68,7 +64,7 @@
             android:layout_marginTop="@dimen/dimen20"
             android:background="@drawable/btn_lightblue"
             android:paddingLeft="@dimen/dimen30"
-            android:drawableLeft="@drawable/ic_welcome_fb_login"
+            android:drawableLeft="@mipmap/ic_welcome_fb_login"
             android:textAllCaps="true"
             android:text="connect with facebook"
             android:textColor="@color/colorWhite"/>

@@ -3,9 +3,10 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#000000</item>
-        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorPrimary">@color/colorDark</item>
+        <item name="colorPrimaryDark">@color/colorDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/colorWhite</item>
     </style>
     
     <style name="bg_blue" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -13,10 +14,18 @@
         <item name="colorControlActivated">@color/colorWhite</item>
         <item name="colorControlHighlight">@color/colorWhite</item>
         <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+        <item name="android:background">@color/colorLightBlue</item>
+        <item name="android:gravity">center_horizontal</item>
     </style>
     
     <style name="bg_white" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorAccent">@color/colorLightBlue</item>
         <item name="android:textColor">@color/colorFontDesc</item>
+    </style>
+
+    <style name="bg_profile" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/colorLightBlue</item>
+        <item name="android:textColor">@color/colorLightBlue</item>
     </style>
 </resources>
